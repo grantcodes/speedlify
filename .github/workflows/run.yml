@@ -1,0 +1,14 @@
+# Run a build every 12 hours to get stats
+
+name: Trigger Netlify Build
+on:
+  schedule:
+    # Run at midnight and midday
+    - cron: "0 0,12 * * *"
+jobs:
+  build:
+    name: Request Netlify Webhook
+    runs-on: ubuntu-latest
+    steps:
+      - name: Curl request
+        run: curl -X POST -d {} ${{ secrets.BUILD_WEBHOOK }}
