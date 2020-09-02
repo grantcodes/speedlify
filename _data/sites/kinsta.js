@@ -22,13 +22,5 @@ module.exports = {
     "https://kinsta.com/blog",
     "https://kinsta.com/resources",
     "https://kinsta.com/about",
-    // Test various post type templates
-    "https://kinsta.com/knowledgebase/dns_probe_finished_nxdomain/", // Knowledgebase single
-    "https://kinsta.com/blog/your-connection-is-not-private/", // Post single
-    "https://kinsta.com/ebooks/wordpress/manage-multiple-wordpress-sites/", // Ebook single
-    "https://kinsta.com/webinars/speed-up-wordpress/", // Webinar single
-    "https://kinsta.com/learn/speed-up-wordpress/", // Learn
-    "https://kinsta.com/feature-updates/site-renaming/", // Feature updates
-    "https://kinsta.com/clients/on-q-financial/", // Client
   ],
 };
