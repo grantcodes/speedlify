@@ -1,6 +1,6 @@
 module.exports = {
   name: "Kinsta Templates", // optional, falls back to object key
-  description: "Various Kinsta single post type templates",
+  description: "kinsta.com - single post type templates",
   // skip if localhost
   skip: !process.env.CONTEXT,
   options: {
