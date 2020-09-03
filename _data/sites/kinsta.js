@@ -1,6 +1,6 @@
 module.exports = {
   name: "Kinsta", // optional, falls back to object key
-  description: "The Kinsta website",
+  description: "kinsta.com - main pages",
   // skip if localhost
   skip: !process.env.CONTEXT,
   options: {
@@ -14,13 +14,13 @@ module.exports = {
   urls: [
     // Main pages
     "https://kinsta.com/",
-    "https://kinsta.com/legal",
-    "https://kinsta.com/plans",
-    "https://kinsta.com/contact",
-    "https://kinsta.com/features",
-    "https://kinsta.com/signup",
-    "https://kinsta.com/blog",
-    "https://kinsta.com/resources",
-    "https://kinsta.com/about",
+    "https://kinsta.com/legal/",
+    "https://kinsta.com/plans/",
+    "https://kinsta.com/contact/",
+    "https://kinsta.com/features/",
+    "https://kinsta.com/signup/",
+    "https://kinsta.com/blog/",
+    "https://kinsta.com/resources/",
+    "https://kinsta.com/about/",
   ],
 };
