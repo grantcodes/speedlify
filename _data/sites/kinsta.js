@@ -16,7 +16,7 @@ module.exports = {
     "https://kinsta.com/",
     "https://kinsta.com/legal/",
     "https://kinsta.com/plans/",
-    "https://kinsta.com/contact/",
+    "https://kinsta.com/contact-us/",
     "https://kinsta.com/features/",
     "https://kinsta.com/signup/",
     "https://kinsta.com/blog/",
