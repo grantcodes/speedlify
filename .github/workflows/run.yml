@@ -1,10 +1,9 @@
-# Run a build every 12 hours to get stats
+# Run a build every 6 hours to get stats
 
 name: Trigger Netlify Build
 on:
   schedule:
-    # Run at midnight and midday
-    - cron: "0 0,12 * * *"
+    - cron: "0 0,6,12,18 * * *"
 jobs:
   build:
     name: Request Netlify Webhook
