@@ -1,6 +1,6 @@
 module.exports = {
   name: "grant.codes", // optional, falls back to object key
-  description: "My personal site",
+  description: "grant.codes",
   // skip if localhost
   skip: !process.env.CONTEXT,
   options: {
