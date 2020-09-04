@@ -16,7 +16,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
         with:
-          path: default
+          ref: ${{ github.head_ref }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
@@ -35,6 +35,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: live
-          file_pattern: _data/results/**/*,_data/results-last-runs.json
           commit_message: "Update results"
-          push_options: --force
