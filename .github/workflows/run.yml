@@ -8,52 +8,33 @@ on:
     - cron: "0 0,6,12,18 * * *"
 
 jobs:
-  run-tests:
+  run-speed-test:
     runs-on: ubuntu-latest
+    env:
+      CONTEXT: production
     steps:
-      - name: Checkout results
-        id: checkout-results
-        uses: actions/checkout@v2
-        continue-on-error: true
-        with:
-          ref: refs/heads/results
-          path: results
-      - name: Checkout speedlify
+      - name: Checkout code
         uses: actions/checkout@v2
         with:
           path: default
-      - name: Copy existing results
-        if: steps.checkout-results.outcome == 'success'
-        run: cp -r results/. default/_data
-      - name: Install npm dependencies
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - name: Install dependencies
         run: npm install
         working-directory: default
+
       - name: Run test-pages
         run: npm run test-pages
         working-directory: default
-      - name: Upload results artifact
-        uses: actions/upload-artifact@v2
+
+      - name: Add & commit results
+        uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: results
-          path: default/_data/results
-      - name: Upload results-last-runs artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: results-last-runs.json
-          path: default/_data/results-last-runs.json
-      - name: Push results
-        run: |
-          mkdir -p results
-          rm -rf results/*
-          cp -r default/_data/results* results
-          cd results
-          ORIGIN=https://${{ github.repository_owner }}:${{ github.token }}@github.com/${{ github.repository }}.git
-          git init
-          git switch results || git switch -c results
-          if [[ `git status --porcelain` ]]; then
-            git config user.name github-actions
-            git config user.email github-actions@github.com
-            git add .
-            git commit -m "Commit results"
-            git push -u $ORIGIN results
-          fi
+          branch: master
+          file_pattern: _data/results/**/*,_data/results-last-runs.json
+          commit_message: "Update results"
+          push_options: --force
