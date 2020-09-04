@@ -34,3 +34,4 @@ jobs:
         with:
           branch: live
           commit_message: "Update results"
+          file_pattern: _data/results data/results-last-runs.json
