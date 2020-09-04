@@ -2,7 +2,7 @@ module.exports = {
   name: "Kinsta", // optional, falls back to object key
   description: "kinsta.com - main pages",
   // skip if localhost
-  skip: !process.env.CONTEXT,
+  skip: !process.env.CONTEXT || true,
   options: {
     frequency: 60 * 12, // 12 hours
     // Use "run" if the sites don’t share assets on the same origin
