@@ -30,8 +30,9 @@ jobs:
         run: npm run test-pages
 
       - name: Add & commit results
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: EndBug/add-and-commit@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          branch: live
-          commit_message: "Update results"
-          file_pattern: _data/results data/results-last-runs.json
+          add: "_data"
+          message: "Update results"
