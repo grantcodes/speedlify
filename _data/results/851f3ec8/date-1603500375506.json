@@ -1,0 +1,46 @@
+{
+  "url": "https://kinsta.com/resources/",
+  "requestedUrl": "https://kinsta.com/resources/",
+  "timestamp": 1603500987516,
+  "ranks": {
+    "hundos": 5,
+    "performance": 6,
+    "accessibility": 3,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "6.4.1",
+    "performance": 0.37,
+    "accessibility": 0.81,
+    "bestPractices": 0.71,
+    "seo": 0.98,
+    "total": 287
+  },
+  "firstContentfulPaint": 2441.8419999999996,
+  "speedIndex": 5358.77038374603,
+  "largestContentfulPaint": 6131.782000000002,
+  "totalBlockingTime": 902.7180000000026,
+  "cumulativeLayoutShift": 0.0619973873562283,
+  "timeToInteractive": 13528.9435,
+  "maxPotentialFirstInputDelay": 396,
+  "timeToFirstByte": 156.18099999999998,
+  "weight": {
+    "summary": "103 requests • 1,469 KiB",
+    "total": 1504617,
+    "image": 395102,
+    "imageCount": 31,
+    "script": 854936,
+    "scriptCount": 42,
+    "document": 36390,
+    "font": 103054,
+    "fontCount": 5,
+    "stylesheet": 82562,
+    "stylesheetCount": 2,
+    "thirdParty": 577000,
+    "thirdPartyCount": 64
+  },
+  "axe": {
+    "passes": 1367,
+    "violations": 45
+  }
+}
