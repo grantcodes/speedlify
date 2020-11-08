@@ -1,0 +1,46 @@
+{
+  "url": "https://kinsta.com/contact-us/",
+  "requestedUrl": "https://kinsta.com/contact-us/",
+  "timestamp": 1604859371507,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.4.1",
+    "performance": 0.4,
+    "accessibility": 0.79,
+    "bestPractices": 0.71,
+    "seo": 1,
+    "total": 290
+  },
+  "firstContentfulPaint": 2469.9389999999994,
+  "speedIndex": 3720.5690676690533,
+  "largestContentfulPaint": 5322.0244999999995,
+  "totalBlockingTime": 1337.4999999999995,
+  "cumulativeLayoutShift": 0.0045644531249999995,
+  "timeToInteractive": 12844.107999999998,
+  "maxPotentialFirstInputDelay": 522,
+  "timeToFirstByte": 126.352,
+  "weight": {
+    "summary": "88 requests • 1,143 KiB",
+    "total": 1170529,
+    "image": 93118,
+    "imageCount": 19,
+    "script": 836594,
+    "scriptCount": 40,
+    "document": 33077,
+    "font": 91948,
+    "fontCount": 4,
+    "stylesheet": 82535,
+    "stylesheetCount": 2,
+    "thirdParty": 569017,
+    "thirdPartyCount": 63
+  },
+  "axe": {
+    "passes": 762,
+    "violations": 31
+  }
+}
