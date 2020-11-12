@@ -1,0 +1,46 @@
+{
+  "url": "https://kinsta.com/plans/",
+  "requestedUrl": "https://kinsta.com/plans/",
+  "timestamp": 1605182958820,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 7,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.4.1",
+    "performance": 0.53,
+    "accessibility": 0.75,
+    "bestPractices": 0.86,
+    "seo": 0.93,
+    "total": 307
+  },
+  "firstContentfulPaint": 2366.128,
+  "speedIndex": 4733.727119567032,
+  "largestContentfulPaint": 2890.4880000000007,
+  "totalBlockingTime": 2054.7699999999986,
+  "cumulativeLayoutShift": 0.013653341929117838,
+  "timeToInteractive": 10222.062,
+  "maxPotentialFirstInputDelay": 1272.0000000000005,
+  "timeToFirstByte": 120.411,
+  "weight": {
+    "summary": "89 requests • 1,157 KiB",
+    "total": 1185187,
+    "image": 268797,
+    "imageCount": 41,
+    "script": 600807,
+    "scriptCount": 25,
+    "document": 44766,
+    "font": 146540,
+    "fontCount": 7,
+    "stylesheet": 81792,
+    "stylesheetCount": 2,
+    "thirdParty": 311340,
+    "thirdPartyCount": 24
+  },
+  "axe": {
+    "passes": 2533,
+    "violations": 259
+  }
+}
