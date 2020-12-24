@@ -1,0 +1,50 @@
+{
+  "url": "https://grant.codes/websites",
+  "requestedUrl": "https://grant.codes/websites",
+  "timestamp": 1608770155674,
+  "ranks": {
+    "hundos": 5,
+    "performance": 3,
+    "accessibility": 9,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.98,
+    "accessibility": 0.75,
+    "bestPractices": 1,
+    "seo": 0.86,
+    "total": 359
+  },
+  "firstContentfulPaint": 1793.737,
+  "speedIndex": 1793.737,
+  "largestContentfulPaint": 2093.737,
+  "totalBlockingTime": 114,
+  "cumulativeLayoutShift": 0.04844565518697102,
+  "timeToInteractive": 2363.737,
+  "maxPotentialFirstInputDelay": 138,
+  "timeToFirstByte": 15.334,
+  "weight": {
+    "summary": "55 requests • 812 KiB",
+    "total": 831613,
+    "image": 320390,
+    "imageCount": 9,
+    "script": 119443,
+    "scriptCount": 11,
+    "document": 23158,
+    "font": 44390,
+    "fontCount": 2,
+    "stylesheet": 10284,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 225,
+    "violations": 26
+  }
+}
