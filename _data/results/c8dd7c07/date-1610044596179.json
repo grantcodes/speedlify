@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/signup/",
+  "requestedUrl": "https://kinsta.com/signup/",
+  "timestamp": 1610044652587,
+  "ranks": {
+    "hundos": 5,
+    "performance": 9,
+    "accessibility": 1,
+    "cumulative": 5
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.34,
+    "accessibility": 0.83,
+    "bestPractices": 0.87,
+    "seo": 1,
+    "total": 304
+  },
+  "firstContentfulPaint": 4251.232,
+  "speedIndex": 4251.232,
+  "largestContentfulPaint": 9534.473,
+  "totalBlockingTime": 828.0734999999995,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 10533.2395,
+  "maxPotentialFirstInputDelay": 356,
+  "timeToFirstByte": 264.016,
+  "weight": {
+    "summary": "72 requests • 1,068 KiB",
+    "total": 1093518,
+    "image": 10893,
+    "imageCount": 14,
+    "script": 764654,
+    "scriptCount": 32,
+    "document": 37884,
+    "font": 146323,
+    "fontCount": 7,
+    "stylesheet": 85157,
+    "stylesheetCount": 3,
+    "thirdParty": 544509,
+    "thirdPartyCount": 46
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "axe": {
+    "passes": 325,
+    "violations": 9
+  }
+}
