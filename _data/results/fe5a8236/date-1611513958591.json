@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/feature-updates/site-renaming/",
+  "requestedUrl": "https://kinsta.com/feature-updates/site-renaming/",
+  "timestamp": 1611514049423,
+  "ranks": {
+    "hundos": 3,
+    "performance": 3,
+    "accessibility": 4,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.45,
+    "accessibility": 0.8,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 298
+  },
+  "firstContentfulPaint": 2384.7509999999997,
+  "speedIndex": 4951.153213475036,
+  "largestContentfulPaint": 5856.888999999999,
+  "totalBlockingTime": 636.0000000000009,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 13371.7305,
+  "maxPotentialFirstInputDelay": 267,
+  "timeToFirstByte": 662.978,
+  "weight": {
+    "summary": "99 requests • 1,386 KiB",
+    "total": 1419438,
+    "image": 109801,
+    "imageCount": 20,
+    "script": 1028058,
+    "scriptCount": 46,
+    "document": 32140,
+    "font": 135208,
+    "fontCount": 6,
+    "stylesheet": 82711,
+    "stylesheetCount": 2,
+    "thirdParty": 686028,
+    "thirdPartyCount": 67
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "axe": {
+    "passes": 616,
+    "violations": 39
+  }
+}
