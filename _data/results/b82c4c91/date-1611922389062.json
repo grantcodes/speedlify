@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/knowledgebase/dns_probe_finished_nxdomain/",
+  "requestedUrl": "https://kinsta.com/knowledgebase/dns_probe_finished_nxdomain/",
+  "timestamp": 1611922506903,
+  "ranks": {
+    "hundos": 2,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 2
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.41,
+    "accessibility": 0.86,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 300
+  },
+  "firstContentfulPaint": 2431.1600000000003,
+  "speedIndex": 7697.192453432985,
+  "largestContentfulPaint": 3270.1360000000004,
+  "totalBlockingTime": 1597.3560000000007,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 17183.316999999995,
+  "maxPotentialFirstInputDelay": 397.00000000000045,
+  "timeToFirstByte": 130.259,
+  "weight": {
+    "summary": "119 requests • 2,513 KiB",
+    "total": 2572802,
+    "image": 971169,
+    "imageCount": 21,
+    "script": 1311793,
+    "scriptCount": 62,
+    "document": 38279,
+    "font": 135136,
+    "fontCount": 6,
+    "stylesheet": 82711,
+    "stylesheetCount": 2,
+    "thirdParty": 1407697,
+    "thirdPartyCount": 89
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 1296,
+    "violations": 185
+  }
+}
