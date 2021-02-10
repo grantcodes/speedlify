@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/clients/on-q-financial/",
+  "requestedUrl": "https://kinsta.com/clients/on-q-financial/",
+  "timestamp": 1612980684713,
+  "ranks": {
+    "hundos": 2,
+    "performance": 1,
+    "accessibility": 5,
+    "cumulative": 1
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.41,
+    "accessibility": 0.77,
+    "bestPractices": 0.8,
+    "seo": 0.93,
+    "total": 291
+  },
+  "firstContentfulPaint": 2467.2359999999994,
+  "speedIndex": 7895.218029877236,
+  "largestContentfulPaint": 3226.775999999999,
+  "totalBlockingTime": 1790.9999999999998,
+  "cumulativeLayoutShift": 0.00546875,
+  "timeToInteractive": 16591.3285,
+  "maxPotentialFirstInputDelay": 457,
+  "timeToFirstByte": 430.168,
+  "weight": {
+    "summary": "107 requests • 1,785 KiB",
+    "total": 1827419,
+    "image": 265636,
+    "imageCount": 18,
+    "script": 1260325,
+    "scriptCount": 49,
+    "document": 45580,
+    "font": 135188,
+    "fontCount": 6,
+    "stylesheet": 88045,
+    "stylesheetCount": 3,
+    "thirdParty": 952720,
+    "thirdPartyCount": 78
+  },
+  "run": {
+    "number": 1,
+    "total": 3
+  },
+  "axe": {
+    "passes": 551,
+    "violations": 31
+  }
+}
