@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/webinars/speed-up-wordpress/",
+  "requestedUrl": "https://kinsta.com/webinars/speed-up-wordpress/",
+  "timestamp": 1617561036629,
+  "ranks": {
+    "hundos": 6,
+    "performance": 4,
+    "accessibility": 7,
+    "cumulative": 6
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.4,
+    "accessibility": 0.74,
+    "bestPractices": 0.87,
+    "seo": 0.93,
+    "total": 294
+  },
+  "firstContentfulPaint": 2343.754,
+  "speedIndex": 9377.039514290049,
+  "largestContentfulPaint": 3126.187999999999,
+  "totalBlockingTime": 1963.8679999999981,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 19753.694999999996,
+  "maxPotentialFirstInputDelay": 440,
+  "timeToFirstByte": 128.376,
+  "weight": {
+    "summary": "134 requests • 2,685 KiB",
+    "total": 2749942,
+    "image": 541355,
+    "imageCount": 26,
+    "script": 1809291,
+    "scriptCount": 59,
+    "document": 73255,
+    "font": 157367,
+    "fontCount": 9,
+    "stylesheet": 137796,
+    "stylesheetCount": 4,
+    "thirdParty": 1694931,
+    "thirdPartyCount": 100
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 721,
+    "violations": 33
+  }
+}
