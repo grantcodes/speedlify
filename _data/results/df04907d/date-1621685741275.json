@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/blog/your-connection-is-not-private/",
+  "requestedUrl": "https://kinsta.com/blog/your-connection-is-not-private/",
+  "timestamp": 1621685997774,
+  "ranks": {
+    "hundos": 3,
+    "performance": 4,
+    "accessibility": 1,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.47,
+    "accessibility": 0.97,
+    "bestPractices": 0.93,
+    "seo": 0.93,
+    "total": 330
+  },
+  "firstContentfulPaint": 1511.819,
+  "speedIndex": 8685.694825281938,
+  "largestContentfulPaint": 2563.2960000000003,
+  "totalBlockingTime": 1376.0000000000005,
+  "cumulativeLayoutShift": 0,
+  "timeToInteractive": 17532.189000000006,
+  "maxPotentialFirstInputDelay": 433,
+  "timeToFirstByte": 34.837999999999994,
+  "weight": {
+    "summary": "130 requests • 2,792 KiB",
+    "total": 2858586,
+    "image": 408969,
+    "imageCount": 22,
+    "script": 1266367,
+    "scriptCount": 69,
+    "document": 154721,
+    "font": 191824,
+    "fontCount": 7,
+    "stylesheet": 84832,
+    "stylesheetCount": 1,
+    "thirdParty": 1191203,
+    "thirdPartyCount": 88
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 1966,
+    "violations": 208
+  }
+}
