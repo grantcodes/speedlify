@@ -1,0 +1,50 @@
+{
+  "url": "https://grant.codes/2020/08/09/100days-conclusion",
+  "requestedUrl": "https://grant.codes/2020/08/09/100days-conclusion",
+  "timestamp": 1621837218936,
+  "ranks": {
+    "hundos": 4,
+    "performance": 3,
+    "accessibility": 7,
+    "cumulative": 4
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.97,
+    "accessibility": 0.77,
+    "bestPractices": 1,
+    "seo": 0.92,
+    "total": 366
+  },
+  "firstContentfulPaint": 2272.173,
+  "speedIndex": 2272.173,
+  "largestContentfulPaint": 2272.173,
+  "totalBlockingTime": 0,
+  "cumulativeLayoutShift": 0.0021148681640625,
+  "timeToInteractive": 2272.173,
+  "maxPotentialFirstInputDelay": 16,
+  "timeToFirstByte": 93.07499999999999,
+  "weight": {
+    "summary": "41 requests • 516 KiB",
+    "total": 527878,
+    "image": 11317,
+    "imageCount": 1,
+    "script": 235107,
+    "scriptCount": 14,
+    "document": 25606,
+    "font": 44397,
+    "fontCount": 2,
+    "stylesheet": 11134,
+    "stylesheetCount": 2,
+    "thirdParty": 0,
+    "thirdPartyCount": 0
+  },
+  "run": {
+    "number": 2,
+    "total": 3
+  },
+  "axe": {
+    "passes": 233,
+    "violations": 32
+  }
+}
