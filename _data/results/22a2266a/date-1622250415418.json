@@ -1,0 +1,50 @@
+{
+  "url": "https://kinsta.com/ebooks/wordpress/manage-multiple-wordpress-sites/",
+  "requestedUrl": "https://kinsta.com/ebooks/wordpress/manage-multiple-wordpress-sites/",
+  "timestamp": 1622250735739,
+  "ranks": {
+    "hundos": 3,
+    "performance": 2,
+    "accessibility": 6,
+    "cumulative": 3
+  },
+  "lighthouse": {
+    "version": "6.5.0",
+    "performance": 0.47,
+    "accessibility": 0.86,
+    "bestPractices": 0.93,
+    "seo": 0.93,
+    "total": 319
+  },
+  "firstContentfulPaint": 1375.2380000000003,
+  "speedIndex": 5907.531578040704,
+  "largestContentfulPaint": 3044.576,
+  "totalBlockingTime": 1547.5,
+  "cumulativeLayoutShift": 0.18152996656629775,
+  "timeToInteractive": 14563.570500000002,
+  "maxPotentialFirstInputDelay": 518,
+  "timeToFirstByte": 121.528,
+  "weight": {
+    "summary": "121 requests • 1,552 KiB",
+    "total": 1589754,
+    "image": 416905,
+    "imageCount": 40,
+    "script": 862813,
+    "scriptCount": 49,
+    "document": 14890,
+    "font": 191851,
+    "fontCount": 7,
+    "stylesheet": 84832,
+    "stylesheetCount": 1,
+    "thirdParty": 653780,
+    "thirdPartyCount": 67
+  },
+  "run": {
+    "number": 3,
+    "total": 3
+  },
+  "axe": {
+    "passes": 705,
+    "violations": 22
+  }
+}
